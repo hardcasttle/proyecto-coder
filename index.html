@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GraciasTotales</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Jomhuria&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  
+  <body>
+    
+    <header>
+      <nav>
+        <div class="menu-icon" id="menuIcon">&#9776;</div>
+        <div class="redes">
+          <a href="./pages/gira-carbono.html"> <h3>GIRA CARBONO NEUTRAL</h3> </a>
+          <a href="https://twitter.com/sodastereo" target="_blank">Twitter</a>
+          <a href="https://www.youtube.com/@SodaStereo" target="_blank">Youtube</a>
+          <a href="https://www.instagram.com/sodastereo/?hl=es" target="_blank">Instagram</a>
+          <a href="./pages/contacto.html"> <h3>CONTACTO</h3> </a>
+        </div>
+      </nav>
+    </header>
+    
+    <script>
+      const menuIcon = document.getElementById("menuIcon");
+      const redes = document.querySelector(".redes");
+  
+      menuIcon.addEventListener("click", function () {
+        redes.classList.toggle("active");
+      });
+    </script>
+
+
+
+
+
+    <div class="titulos">
+      <h1>SODA STEREO</h1>
+      <h2>- GRACIAS TOTALES -</h2>
+    </div>
+
+
+
+
+
+    <main>
+      <div class="imagen">
+        <img src="./assets/img/nada-personal.jpg" alt="nadapersonal" class="imgalbum" />
+        <img src="./assets/img/signos.jpg" alt="signos" class="imgalbum" />
+        <img src="./assets/img/soda-stereo.jpg" alt="sodast" class="imgalbum" />
+    </div>
+
+      <div class="albums">
+        <a href="./pages/albums.html" class="albums" <h1>ALBUMS</h1> </a>
+      </div>
+
+      <div class="timeline">
+        <a href="./pages/timeline.html" class="timeline" <h1>TIMELINE</h1> </a>
+      </div>
+    </main>
+
+
+
+
+
+    <footer>
+      <div class="logo">
+        <img src="./assets/img/logo.png" class="circulo" alt="charly">
+        <img src="./assets/img/logo.png" class="circulo" alt="cerati">
+        <img src="./assets/img/logo.png" class="circulo" alt="zeta">
+      </div>
+    </footer>
+
+
+
+
+
+  </body>
+</html>
